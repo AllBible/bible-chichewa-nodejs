@@ -24,6 +24,9 @@ You can install the Chichewa Bible npm package using npm:
 ```
 npm install chichewa-bible
 ```
+```
+yarn add chichewa-bible
+```
 
 ## Examples
 To use the bible-chichewa library to retrieve a verse from the Chichewa Bible, follow these steps:
