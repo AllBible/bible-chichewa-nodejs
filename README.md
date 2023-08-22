@@ -21,6 +21,56 @@ The **Chichewa Bible** npm package is an open source project that provides devel
 
 You can install the Chichewa Bible npm package using npm:
 
-```sh
+```
 npm install chichewa-bible
+```
+
+## Examples
+To use the bible-chichewa library to retrieve a verse from the Chichewa Bible, follow these steps:
+
+### Example: Retrieving a Bible Verse
+```
+const { getVerse, BOOK } = require('bible-chichewa');
+const book = BOOK.Genesis;
+const chapter = 1;
+const verse = 1;
+
+const verseText = getVerse(book, chapter, verse);
+console.log(`Verse ${book} ${chapter}:${verse}: ${verseText}`);
+```
+
+
+### Example: Retrieving a Bible Chpater
+
+```
+const { getChapter, BOOK } = require('bible-chichewa');
+
+const book = BOOK.Genesis;
+const chapter = 1;
+
+const chapterVerses = getChapter(book, chapter);
+
+console.log(`Chapter ${book} ${chapter}:`);
+chapterVerses.forEach((verse, index) => {
+  console.log(`${index + 1}: ${verse}`);
+});
+
+```
+
+### Example: Retrieving a Bible Verses within Range
+```
+const { getVerses, BOOK } = require('bible-chichewa');
+
+const book = BOOK.Exodus;
+const chapter = 20;
+const verseStart = 1;
+const verseEnd = 5;
+
+const verses = getVerses(book, chapter, verseStart, verseEnd);
+
+console.log(`Verses ${book} ${chapter}:${verseStart}-${verseEnd}:`);
+verses.forEach((verse, index) => {
+  console.log(`${verseStart + index}: ${verse}`);
+});
+
 ```
