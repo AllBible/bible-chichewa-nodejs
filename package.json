@@ -1,0 +1,37 @@
+{
+  "name": "bible-chichewa",
+  "version": "1.0.0",
+  "description": "The Chichewa Bible npm package is an open source project that provides developers with a convenient way to access and work with the Chichewa translation of the Bible within their Node.js applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 ./src/resources/**/* ./dist && copyfiles -f ./src/content ./dist/content",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllBible/bible-chichewa-nodejs.git"
+  },
+  "keywords": [
+    "chichewa",
+    "bible",
+    "mau"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "author": "M2K Developments",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllBible/bible-chichewa-nodejs/issues"
+  },
+  "homepage": "https://github.com/AllBible/bible-chichewa-nodejs#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.3",
+    "copyfiles": "^2.4.1",
+    "cp": "^0.2.0"
+  }
+}
