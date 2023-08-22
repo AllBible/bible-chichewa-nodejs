@@ -24,6 +24,7 @@ You can install the Chichewa Bible npm package using npm:
 ```
 npm install chichewa-bible
 ```
+OR
 ```
 yarn add chichewa-bible
 ```
