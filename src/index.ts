@@ -1,3 +1,8 @@
+/**
+ author: M2K Developments
+ github: https://github.com/m2kdevelopments
+ */
+
 const books = require("./content/books.json");
 
 /**
