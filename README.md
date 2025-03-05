@@ -1,7 +1,4 @@
 # Chichewa Bible npm Package
-<a href="https://www.buymeacoffee.com/m2kdevelopments" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
-</a>
 
 ![Static Badge](https://img.shields.io/badge/v1.0.3-maroon?style=plastic&logo=npm&logoColor=maroon&logoSize=20&label=version)
 ![Static Badge](https://img.shields.io/badge/MIT-green?style=plastic&logo=license&logoColor=green&label=license)
@@ -44,7 +41,7 @@ console.log(`Verse ${book} ${chapter}:${verse}: ${verseText}`);
 ```
 
 
-### Example: Retrieving a Bible Chpater
+### Example: Retrieving a Bible Chapter
 
 ```
 const { getChapter, BOOK } = require('bible-chichewa');
@@ -78,3 +75,8 @@ verses.forEach((verse, index) => {
 });
 
 ```
+
+
+<a href="https://www.buymeacoffee.com/m2kdevelopments" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
