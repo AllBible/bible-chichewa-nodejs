@@ -3,11 +3,8 @@
 <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
 
-[![npm version](https://img.shields.io/npm/v/chichewa-bible.svg)](https://www.npmjs.com/package/chichewa-bible)
-![npm downloads](https://img.shields.io/npm/dt/chichewa-bible.svg)
-![License](https://img.shields.io/npm/l/chichewa-bible.svg)
-[![Build Status](https://travis-ci.org/your-username/chichewa-bible.svg?branch=master)](https://travis-ci.org/your-username/chichewa-bible)
-[![Coverage Status](https://coveralls.io/repos/github/your-username/chichewa-bible/badge.svg?branch=master)](https://coveralls.io/github/your-username/chichewa-bible?branch=master)
+![Static Badge](https://img.shields.io/badge/v1.0.3-maroon?style=plastic&logo=npm&logoColor=maroon&logoSize=20&label=version)
+![Static Badge](https://img.shields.io/badge/MIT-green?style=plastic&logo=license&logoColor=green&label=license)
 
 
 The **Chichewa Bible** npm package is an open source project that provides developers with a convenient way to access and work with the Chichewa translation of the Bible within their Node.js applications. This package aims to simplify the integration of Chichewa Bible text into various projects, such as language learning apps, Bible study tools, and more.
