@@ -21,11 +21,11 @@ The **Chichewa Bible** npm package is an open source project that provides devel
 You can install the Chichewa Bible npm package using npm:
 
 ```
-npm install chichewa-bible
+npm install bible-chichewa
 ```
 OR
 ```
-yarn add chichewa-bible
+yarn add bible-chichewa
 ```
 
 ## Examples
